@@ -1,0 +1,45 @@
+# this is a comment.(yaml)it is used to describe data structures
+
+#for porperties
+
+name: John
+
+#for list - is used and spacing(maybe 2 or4). array of names
+
+names:
+    -John
+    -Paul
+    -Ringo
+
+pound_sign: "'#'"
+
+book:
+    author: Joe Buck
+    publisher: random house
+
+#boolean variable
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No,false,FALSE
+
+#For Strings: in string you have to escap ' : etx by surrounding the string in double quotes
+
+string_val: "This is it's quote"
+
+colon_string: "my courses: one two three"
+
+include_new_lines: |
+    adsds dfdf ddfd
+    sd dfdf
+    dfdfd dfdfd
+
+ignore_new_lines: >
+    this is
+    just one long
+    string
+
